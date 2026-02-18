@@ -1,4 +1,5 @@
 ![Java CI with Gradle](https://github.com/oussamahakik/ClockSystem-TP/actions/workflows/gradle.yml/badge.svg)
+![Java CI with Gradle](https://github.com/oussamahakik/ClockSystem-TP/actions/workflows/pmd.yml/badge.svg)
 
 # ClockSystem
 

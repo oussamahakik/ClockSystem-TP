@@ -23,7 +23,7 @@ jobs:
 
     
     - name: Initialize CodeQL
-      uses: github/codeql-action/init@v3
+      uses: github/codeql-action/init@v4
       
       with:
         languages: 'java'
@@ -44,6 +44,6 @@ jobs:
       run: gradle build
     # 5. Exécution de l'analyse proprement dite [cite: 98]
     - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v3
+      uses: github/codeql-action/analyze@v4
       with:
         category: "/language:java"

@@ -1,6 +1,7 @@
 ![Java CI with Gradle](https://github.com/oussamahakik/ClockSystem-TP/actions/workflows/gradle.yml/badge.svg)
 ![Java CI with Gradle](https://github.com/oussamahakik/ClockSystem-TP/actions/workflows/pmd.yml/badge.svg)
 ![CodeQL](https://github.com/oussamahakik/ClockSystem-TP/actions/workflows/codeql.yml/badge.svg)
+![Scorecard](https://api.securityscorecards.dev/projects/github.com/oussamahakik/ClockSystem-TP/badge)
 
 # ClockSystem
 

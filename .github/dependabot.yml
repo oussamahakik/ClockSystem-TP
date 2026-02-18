@@ -1,1 +1,14 @@
+version : 2
 
+updates:
+  #pour le dependances pour gradle
+  - package-ecosystem : "gradle"
+    directory : "/"
+    schedule:
+      interval : "daily"
+
+  #pour les dependances pour github actions workflows
+  - package-ecosystem : "github-actions"
+    directory : "/"
+    schedule:
+      interval : "daily"

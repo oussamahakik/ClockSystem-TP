@@ -57,7 +57,7 @@ jobs:
        #Publication du rapport de test 
     - name: Upload Test Report
       if: always() #rapport envoyé meme si les tests echouent
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: test-report-ubuntu #que pour ubuntu
         path: app/build/reports/tests # Chemin vers le rapports générés par Gradle
